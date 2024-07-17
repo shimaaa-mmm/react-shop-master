@@ -1,0 +1,134 @@
+.footer {
+  background-color: #e53935; /* Red background */
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+    padding-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+    color: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(238,238,238,0.3);
+  
+}
+
+.footer-section ul li span {
+  float: right;
+}
+
+.footer-section address,
+.footer-section p {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.number{
+    color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+
+}
+.footer-section form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  flex: 1;
+}
+
+.footer-section form button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 50px;
+  color: white;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom .social-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-bottom .social-links a:hover {
+  color: #e53935;
+}
+
+.footer-bottom span {
+  color: #e53935;
+}
+article,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-gap {
+  padding: 160px 0;
+}
+.ro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 93px;
+    margin-left: 26px;
+}
+.fasele{
+    margin-left: 35px;
+}
+.akhar{
+    margin-left: 42px;
+}

@@ -1,0 +1,226 @@
+.menu-area {
+    background: #f9f9ff;
+  }
+  
+  .section-gap {
+    padding: 120px 0;
+  }
+  
+  article,
+  dialog,
+  figcaption,
+  figure,
+  footer,
+  header,
+  main,
+  nav,
+  section {
+    display: block;
+  }
+  
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;  // تنظیم max-width برای کانتینر
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .d-flex {
+    display: flex !important;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -37px;
+    margin-left: -47px;
+  }
+  
+  .pb-70 {
+    padding-bottom: 70px;
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+        max-width: 1123px;  // اطمینان از max-width در رسانه های بزرگتر
+    }
+  }
+  
+  .col-lg-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-10 {
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+  }
+  
+  .menu-area .filters {
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .filter-container {
+    max-width: 1140px;  // تنظیم max-width برای فیلترها و محتوای فیلتر
+    margin: 0 auto;  // وسط چین کردن فیلترها و محتوای فیلتر
+  }
+  
+  .filter-wrap {
+    display: table;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
+  }
+  
+  .menu-area .filters li.active {
+    color: #fff;
+    background: #f42f2c;
+  }
+  
+  .menu-area .filters li {
+    padding: 40px 0px;
+    max-width: 184px;
+    cursor: pointer;
+    position: relative;
+    color: #222;
+    font-size: 12px;
+    font-weight: 500;
+    display: table-cell;
+    border-right: 1px solid #edf6ff;
+  }
+  
+  .menu-area .filters li:last-child {
+    border-right: none;
+  }
+  
+  .filters-content {
+    padding: 3px;
+  }
+  
+  .single-menu {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  .title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .single-menu h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .price {
+    color: #f42f2c;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .single-menu p {
+    margin: 0.5rem 0 0 0;
+    color: #777;
+    max-width: 392px;
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive grid layout */
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 1 1 calc(50% - 1rem); /* Two items per row */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  h4 {
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  
+  .col-md-6 {
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .filter-wrap .filters li.active {
+    color: #fff;
+    background: #f42f2c;
+  }
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  

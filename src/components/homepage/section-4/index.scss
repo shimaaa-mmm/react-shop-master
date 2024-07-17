@@ -1,0 +1,405 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery-area {
+  background: #f9f9ff;
+
+  .filters {
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+
+    li {
+      padding: 40px 0px;
+      max-width: 184px;
+      cursor: pointer;
+      position: relative;
+      color: #222;
+      font-size: 12px;
+      font-weight: 500;
+
+      &.active {
+        color: #fff;
+        background: #f42f2c;
+      }
+    }
+  }
+}
+
+.section-gap {
+  padding: 120px 0;
+}
+
+article,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.col-6,
+.col-12,
+.col,
+.col-sm-6,
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-8,
+.col-md-9,
+.col-md-12,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-8,
+.col-lg-9,
+.col-lg-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h1 {
+  line-height: 1.5em;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+
+  &,
+  .h1 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+  }
+
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+  }
+
+  &,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.filter-wrap {
+  display: table;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
+
+  li {
+    display: table-cell;
+    border-right: 1px solid #edf6ff;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.gallery-area {
+    .filters {
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+  
+      li {
+        padding: 40px 0px;
+        max-width: 184px;
+        cursor: pointer;
+        position: relative;
+        color: #222;
+        font-size: 12px;
+        font-weight: 500;
+        transition: background 0.3s, color 0.3s; // Add a transition for a smooth color change
+  
+        &.active {
+          color: #fff;
+          background: #f42f2c; // Red background for the active filter
+        }
+  
+        &:not(.active) {
+          &:hover {
+            background: #f42f2c; // Red background on hover for non-active filters
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .gallery-area .filters-content {
+    margin-top: 50px;
+    overflow: hidden; // جلوگیری از اسکرول افقی
+  }
+  .gallery-area .filters-content {
+    margin-top: 50px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+    }
+  }
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media (min-width: 576px) {
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  .col-6, .col-12, .col, .col-sm-6, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9, .col-md-12, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .single-gallery {
+    margin-bottom: 30px;
+  }
+  
+  .single-gallery img {
+    width: 66%;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+    }
+  }
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media (min-width: 576px) {
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  .col-6, .col-12, .col, .col-sm-6, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9, .col-md-12, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .gallery-area {
+  .filters-content {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      height: 800px; 
+      overflow: hidden; 
+
+      .single-gallery {
+        margin-bottom: 30px;
+        transition: transform 0.4s ease, opacity 0.4s ease; 
+      }
+
+      &.breakfast-view {
+        position: relative;
+
+        .breakfast-img-4 {
+          position: absolute;
+          left: -18.754%;
+          top: 0px;
+          transform: translateX(30px);
+          opacity: 2;
+          transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out; 
+        }
+
+        .breakfast-img-4.active {
+          opacity: 1;
+          transform: translateX(0);
+          transition-duration: 0.4s;
+          transition-delay: 0ms;
+        }
+      }
+
+      /* استایل‌های عمومی برای "Breakfast" برای باقی تصاویر */
+      .breakfast {
+        position: relative; 
+      }
+
+      .all {
+        position: absolute;
+
+        /* موقعیت‌دهی برای تصاویر */
+        &:nth-of-type(1) {
+          left: 0.246%;
+          top: 0px;
+        }
+
+        &:nth-of-type(2) {
+          left: 33.2456%;
+          top: 0px;
+        }
+
+        &:nth-of-type(3) {
+          left: 66.579%;
+          top: 0px;
+        }
+
+        &:nth-of-type(4) {
+          left: 0px;
+          top: 273px;
+        }
+
+        &:nth-of-type(5) {
+          left: 66.579%;
+          top: 273px;
+        }
+
+        &:nth-of-type(6) {
+          left: 33.2456%;
+          top: 399px;
+        }
+
+        &.transition {
+          opacity: 0;
+          transform: scale(0.95);
+        }
+        &.transition-to-breakfast {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}

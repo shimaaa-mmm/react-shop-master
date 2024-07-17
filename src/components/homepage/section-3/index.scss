@@ -1,0 +1,607 @@
+.reservation-area {
+  background: url(/public/images/reservation-bg.jpg.webp) no-repeat center/cover;
+}
+.section-gap {
+  padding: 120px 0;
+}
+.relative {
+  position: relative;
+}
+article,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+.reservation-area .overlay-bg {
+  background: rgba(17, 22, 24, 0.75);
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.reservation-area .reservation-right,
+.reservation-area .reservation-left {
+  position: relative;
+}
+/* index.scss */
+.reservation-left {
+  display: flex; // Enable flexbox
+  flex-direction: column; // Stack children vertically
+  justify-content: center; // Center content vertically
+  align-items: flex-start; // Align children to the start horizontally
+  height: 100%; // Full height of the parent container
+
+  h1 {
+    margin: 0; // Remove default margin
+    font-size: 2.5rem; // Adjust font size as needed
+    line-height: 1.2; // Line height for better readability
+  }
+
+  p {
+    margin: 20px 0 0; // Add space only on top
+    font-size: 1rem; // Adjust font size as needed
+    line-height: 1.6; // Line height for better readability
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+.col-md-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.text-white {
+  color: #fff;
+}
+.text-white {
+  color: #fff !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+}
+h1 {
+  font-size: 36px;
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h1 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.text-white {
+  color: #fff;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.text-white {
+  color: #fff !important;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.reservation-area .reservation-right,
+.reservation-area .reservation-left {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .col-lg-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+}
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.reservation-area .reservation-right .form-wrap {
+  background: #fff;
+  padding: 100px 40px;
+  display: grid;
+}
+.text-center {
+  text-align: center;
+}
+.text-center {
+  text-align: center !important;
+}
+.reservation-area .reservation-right .form-wrap .form-control {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-left-color: rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button,
+input {
+  overflow: visible;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.reservation-area .reservation-right .form-wrap .form-control {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-left-color: rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button,
+input {
+  overflow: visible;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.reservation-area .reservation-right .form-wrap .form-control {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-left-color: rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button,
+input {
+  overflow: visible;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.reservation-area .reservation-right .form-wrap .form-control {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-left-color: rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button,
+input {
+  overflow: visible;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.reservation-area .reservation-right .form-wrap .form-control {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-left-color: rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button,
+input {
+  overflow: visible;
+}
+.form-select {
+  height: 40px;
+  width: 100%;
+}
+.reservation-area .reservation-right .form-wrap .nice-select {
+  border: 1px solid #eeeeee;
+}
+.reservation-area .reservation-right .nice-select {
+  padding-left: 12px;
+  padding-right: 0px;
+}
+.form-select .nice-select {
+  border: none;
+  border-radius: 0px;
+  height: 40px;
+  background: #fff !important;
+  padding-left: 45px;
+  padding-right: 40px;
+  width: 100%;
+}
+.nice-select {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  height: 42px;
+  line-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+}
+.form-select .current {
+  margin-right: 50px;
+  font-weight: 300;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+.nice-select {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: left !important;
+  white-space: nowrap;
+}
+.form-select .current {
+  margin-right: 50px;
+  font-weight: 300;
+}
+.reservation-area .reservation-right .nice-select .list .option {
+  padding-left: 12px;
+}
+.form-select .nice-select .list .option.selected {
+  color: #f42f2c;
+  background: transparent;
+}
+.form-select .nice-select .list .option {
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  line-height: 28px;
+  min-height: 28px;
+  font-size: 12px;
+  padding-left: 45px;
+}
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+  background-color: #f6f6f6;
+}
+.nice-select .option.selected {
+  font-weight: bold;
+}
+.nice-select .option {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  list-style: none;
+  min-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 29px;
+  text-align: left;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.reservation-area .reservation-right .primary-btn {
+  text-transform: capitalize !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 54%;
+  margin-left: 78px;
+}
+.primary-btn {
+  background: #f42f2c;
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  margin-top: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+/* استایل برای فرم Select */
+.form-select {
+  margin-top: 20px;
+  text-align: left;
+}
+.form-select span:hover {
+  color: #f42f2c;
+}
+/* index.scss */
+.reservation-right {
+  margin-left: auto;
+  padding: 0 15px;
+}
+
+.custom-select-container {
+  .custom-select__option {
+    font-size: 12px;
+  }
+  .custom-select__placeholder {
+    font-size: 12px;
+  }
+  .custom-select__single-value {
+    font-size: 12px;
+  }
+}
+
+.custom-select__option {
+  &:hover {
+    background-color: red;
+    color: #fff;
+  }
+}
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+  width: 357px;
+  margin-left: -2px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(71, 81, 95);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.date-picker {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(71, 81, 95);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.custom-datepicker-class {
+  width: 100%;
+}
+.option-hover {
+  color: red;
+  background-color: #f0f0f0;
+}

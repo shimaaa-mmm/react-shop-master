@@ -1,0 +1,53 @@
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85%;
+  margin: 110px auto;
+
+  .text-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    h1 {
+      font-size: 30px;
+      color: #000;
+      line-height: 1.2em;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 20px 0;
+      max-width: 490px;
+      text-align: justify;
+    }
+    button {
+      background: #f42f2c;
+      line-height: 42px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border: none;
+      color: #fff;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      text-transform: uppercase;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      position: relative;
+    }
+  }
+
+  .image-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+    img {
+      max-width: 97%;
+      height: auto;
+    }
+  }
+}
